@@ -1,0 +1,11 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /product-management-utl
+
+logging:
+  level:
+    com:
+      assessment: INFO
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%t] %5p %c{1} %msg %n"
